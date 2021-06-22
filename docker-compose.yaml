@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    website:
+        image: caddy:2.1.1-alpine
+        ports:
+            - 80:80
+            - 443:443
+        volumes:
+            - ./dist:/var/www/html
+            - ./Caddyfile:/etc/caddy/Caddyfile
+            - /var/log/caddy:/var/log/caddy
