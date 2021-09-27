@@ -1,3 +1,5 @@
+import GoogleAnalytics from '../components/google-analytics'
+
 export default (): React.ReactElement => (
     <div className="h-screen flex flex-row items-center justify-center">
         <div className="text-center px-10 py-4">
@@ -17,5 +19,6 @@ export default (): React.ReactElement => (
                 Lisbon, Portgual
             </div>
         </div>
+        <GoogleAnalytics id="G-SRJWR6E259" timeout={2000} />
     </div>
 )
