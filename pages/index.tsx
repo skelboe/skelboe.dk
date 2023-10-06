@@ -3,7 +3,7 @@ import GoogleAnalytics from '../components/google-analytics'
 export default (): React.ReactElement => (
     <div className="h-screen flex flex-row items-center justify-center">
         <div className="text-center px-10 py-4">
-            <div className="font-semibold mb-2 text-lg">lars skelboe</div>
+            <div className="font-semibold mb-2 text-lg">Lars Skelboe</div>
             <div className="font-light text-sm text-gray-600 tracking-wide">
                 <div className="flex">
                     <a href="mailto:lars@skelboe.dk" className="">

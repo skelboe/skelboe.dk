@@ -1,5 +1,6 @@
 {
     "name": "nextjs-latest-with-tailwind",
+    "version": "0.1",
     "description": "Next.js + tailwind boilerplate",
     "repository": "skelboe/nextjs-tailwind-boilerplate",
     "author": {
@@ -13,18 +14,18 @@
         "export": "next build && next export -o dist"
     },
     "dependencies": {
-        "lodash": "^4.17.20",
-        "next": "^10.0.0",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "node-fetch": "^2.6.1"
+        "lodash": "^4.17.21",
+        "next": "^13.5.4",
+        "node-fetch": "^3.3.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
     },
     "devDependencies": {
-        "@types/node": "^14.14.6",
-        "@types/react": "^16.9.55",
-        "postcss-import": "^13.0.0",
-        "postcss-preset-env": "^6.7.0",
-        "tailwindcss": "^1.9.6",
-        "typescript": "^4.0.5"
+        "@types/node": "^20.8.2",
+        "@types/react": "^18.2.25",
+        "postcss-import": "^15.1.0",
+        "postcss-preset-env": "^9.1.4",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.2.2"
     }
 }

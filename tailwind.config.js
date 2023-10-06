@@ -1,12 +1,8 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    purge: {
-        enabled: process.env.NODE_ENV == 'production',
-        content: ['./pages/**/*.{jsx,tsx}', './components/**/*.{jsx,tsx}'],
-        whitelist: ['body', 'html'],
-    },
+    content: ['./pages/**/*.{jsx,tsx}', './components/**/*.{jsx,tsx}'],
     theme: {
         extend: {},
     },
-    variants: {},
     plugins: [],
 }
